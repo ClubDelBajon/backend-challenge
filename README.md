@@ -9,8 +9,8 @@ Node + Express + MongoDB challenge
 Use [nvm](https://github.com/nvm-sh/nvm) to install node [lts/hydrogen (v18.x)](https://nodejs.org/en/download/) or greater.
 
 ```bash
-nvm use
 nvm install lts/hydrogen
+nvm use
 ```
 
 ### MongoDB
@@ -43,12 +43,6 @@ npm install
 ---
 
 ## Running
-
-Start server:
-
-```bash
-npm start
-```
 
 Start server watching for file changes and reloading automatically using [nodemon](https://github.com/remy/nodemon/):
 
@@ -87,7 +81,6 @@ Restart your server and see swagger-ui docs at [http://localhost:3000/api-docs](
 First steps:
 
 - `Fork` this GitHub repository.
-- Allow public access to review after shipping.
 - Open [http://localhost:3000](http://localhost:3000) in your browser to start!
 
 ---
