@@ -1,10 +1,10 @@
 const userSeed = [
   {
-    email: 'challenge1@codeait.com',
+    email: 'challenge1@mail.com',
     password: 'challenge1',
   },
   {
-    email: 'challenge2@codeait.com',
+    email: 'challenge2@mail.com',
     password: 'challenge2',
   },
 ];

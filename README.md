@@ -1,4 +1,4 @@
-# Codea IT - M.E.N. challenge
+# Morfy - Backend Challenge
 
 Node + Express + MongoDB challenge
 
