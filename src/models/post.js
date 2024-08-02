@@ -27,8 +27,8 @@ const PostSchema = new Schema({
 });
 
 PostSchema.methods.toJSON = function () {
-  const user = this.toObject({ versionKey: false });
-  return user;
+  const post = this.toObject({ versionKey: false });
+  return post;
 };
 
 export default mongoose.model('Post', PostSchema);
