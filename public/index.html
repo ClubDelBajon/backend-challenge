@@ -1,30 +1,28 @@
 <html>
   <head>
-    <title>Morfy - Backend challenge</title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Morfy - Backend Challenge</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
   </head>
-
   <body>
-    <h1>Morfy - Backend challenge</h1>
+    <h1>Morfy - Backend Challenge</h1>
     <p>
-      Welcome to the Mongo + Express + Node challenge! We are working on a blog backend in which users can register, login and create/read posts.
+      Welcome to the Morfy Backend challenge! We are working on a blog backend where users can register, log in and create or read posts.
     <p>
-      Your api base url is <a href="http://localhost:3000/api/">http://localhost:3000/api/</a>
+      Your API base url is <a href="http://localhost:3000/api/">http://localhost:3000/api/</a>
     </p>
     <p>Please read the README.md carefully before starting.</p>
     <p>
-      <b> Ready to start? Here we go.</b>
+      <b>Ready to start? Here we go:</b>
     </p>
     <h2>1. Authorization</h2>
     <p>
-      Someone discovers there’s an issue with authorization. Any user can create a post on
-      behalf of another user! Are you able to fix it?
+      There is a security issue: any user can create a post on behalf of another user! Can you fix it?
     </p>
-    <h2>2. Get posts</h2>
+    <h2>2. Get Posts</h2>
     <p>
       The existing endpoint GET
       <a href="http://localhost:3000/posts">http://localhost:3000/posts</a>
-      brings all the existing posts. Implement the following functionalities:
+      retrieves all existing posts. Implement the following functionalities:
     </p>
     <p>
       <ul>
@@ -34,28 +32,24 @@
     </p>
     <h2>3. Comments</h2>
     <p>
-      Many users are requesting to make comments on the posts.
-    </p>
-    <p>
-      Each comment should have an author and the content itself.
+      Many users are requesting the ability to comment on posts. Each comment should have an author and content.
     </p>
     <p>
       <ul>
         <li><b>3.a)</b> Add a new comment to a post</li>
-        <li><b>3.b)</b> Include comments on Get post by id</li>
+        <li><b>3.b)</b> Include comments when getting a post by ID</li>
       </ul>
     </p>
     <h2>4. Tests</h2>
     <p>
-      We need unit tests for either points 2 or 3 to have better coverage!
+      We need unit tests for either points 2 or 3 to improve coverage.
     </p>
-    <h2>5. [Optionals] Bonus Track.</h2>
+    <h2>5. [Optional] Bonus Track</h2>
     <p>
-      <li><b>5.a)</b> The
-        frontend team is asking for api documentation. They’ve seen swagger as a good
-        choice. Is it already implemented?</li>
-      <li><b>5.b)</b> Infrastructure asks to
-        run the api in a docker container, pointing to a minified build.</li>
+      <li><b>5.a)</b> The frontend team is asking for API documentation. They suggest Swagger as a good choice. Is it already implemented?</li>
+      <li><b>5.b)</b> The infrastructure team requests running the API in a Docker container, pointing to a minified build.</li>
     </p>
+    </br>
+    <p>Good luck with the challenge! Remember, the goal is to demonstrate your ability to identify and fix issues, implement new features, and write tests. Don't hesitate to ask questions if you get stuck. We're looking forward to seeing your solution!</p>
   </body>
 </html>
