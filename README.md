@@ -1,12 +1,12 @@
 # Morfy - Backend Challenge
 
-Node + Express + MongoDB challenge
+Welcome to the Morfy Backend Challenge! This challenge involves using Node.js, Express, and MongoDB to create a backend application.
 
 ## Requirements
 
 ### Node.js
 
-Use [nvm](https://github.com/nvm-sh/nvm) to install node [lts/hydrogen (v18.x)](https://nodejs.org/en/download/) or greater.
+Ensure you have Node.js installed. We recommend using [nvm](https://github.com/nvm-sh/nvm) to manage your Node.js versions. Install the latest LTS version (Hydrogen v18.20.4 or greater):
 
 ```bash
 nvm install lts/hydrogen
@@ -15,76 +15,49 @@ nvm use
 
 ### MongoDB
 
-Download [MongoDB v6.0](https://docs.mongodb.com/manual/installation/) or greater.
+Download and install [MongoDB v6.0](https://docs.mongodb.com/manual/installation/) or a later version.
 
-### Linter
+## Setup
 
-We use both [eslint](https://eslint.org/) and [prettier](https://prettier.io/).
+1. **Environment Variables**: Create a `.env` file for development. Refer to the [.env.example](.env.example) file for the required environment variables.
 
-Please review [VS Code](https://code.visualstudio.com/) plugins at [dev dependencies](package.json).
-
----
-
-## Installation
-
-Create the following files on the `project root`:
-
-- `.env` for development
-- `.env.test` for unit testing purposes
-
-Please verify the required environment variables at [.env.example](.env.example).
-
-Install npm packages:
+2. **Install Dependencies**: Run the following command to install the necessary npm packages:
 
 ```bash
 npm install
 ```
 
----
-
 ## Running
 
-Start server watching for file changes and reloading automatically using [nodemon](https://github.com/remy/nodemon/):
+To start the server with file watching and automatic reloading, use:
 
 ```bash
 npm run dev
 ```
 
-Output:
+You should see output similar to:
+
 
 ```json
 { "message": "App listening on port 3000!", "level": "info" }
 ```
 
----
-
 ## Tests
 
-Running test suite with [mocha](https://mochajs.org/):
+To run the test suite using [mocha](https://mochajs.org/):
+
+1. **Environment Variables**: Create a `.env.test` file for unit testing.
+
+2. **Run tests**: Use the following command to run the tests:
 
 ```bash
 npm run test
 ```
 
----
+## Challenge
 
-## API docs
-
-After running tests, the OAS (open API specification) file must be generated as `api_docs.json`:
-
-Restart your server and see swagger-ui docs at [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
-
----
-
-# Challenge
-
-First steps:
-
-- `Fork` this GitHub repository.
-- Open [http://localhost:3000](http://localhost:3000) in your browser to start!
-
----
+Open [http://localhost:3000](http://localhost:3000) in your browser to start the challenge!
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).

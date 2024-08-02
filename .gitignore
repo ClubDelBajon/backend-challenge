@@ -105,3 +105,5 @@ dist
 
 # Generated when running tests
 api_docs*.json
+
+.DS_Store
